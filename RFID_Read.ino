@@ -1,6 +1,3 @@
-/*
- *  Created by TheCircuit
-*/
 
 #define SS_PIN 4  //D2
 #define RST_PIN 5 //D1
@@ -46,7 +43,6 @@ void loop()
   if (content.substring(1) == "8E 39 32 50") //change UID of the card that you want to give access
   {
     Serial.println(" Access Granted ");
-    Serial.println(" Welcome Mr.Circuit ");
     delay(1000);
     Serial.println(" Have FUN ");
     Serial.println();
